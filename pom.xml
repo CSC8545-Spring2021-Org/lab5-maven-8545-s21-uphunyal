@@ -10,8 +10,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
-		<checkstyle.config.location>${basedir}/src/main/resources/checkstyle-config-studio.xml</checkstyle.config.location> <checkstyle.failOnViolation>true</checkstyle.failOnViolation>    <checkstyle.consoleOutput>true</checkstyle.consoleOutput>
-        <checkstyle.violationSeverity>warning</checkstyle.violationSeverity>
+		<checkstyle.config.location>${basedir}/src/main/resources/checkstyle-config-studio.xml</checkstyle.config.location> 
+		<checkstyle.failOnViolation>true</checkstyle.failOnViolation>    
+		<checkstyle.consoleOutput>true</checkstyle.consoleOutput>
+       <!--  <checkstyle.violationSeverity>warning</checkstyle.violationSeverity> -->
 	</properties>
 	
     <build>
