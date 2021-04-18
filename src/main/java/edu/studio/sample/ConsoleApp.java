@@ -6,6 +6,7 @@ public class ConsoleApp {
         
         System.out.println("Hello Maven"); 
         System.out.println("Bye Maven");
+        System.out.println("Testing GITScm polling using github hook! ");
         
         
     }
